@@ -5,6 +5,7 @@ import 'package:notekeeperapp/view/login_in.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:notekeeperapp/view/notes_pages.dart';
 import 'package:notekeeperapp/view/sples_scanner.dart';
+import 'package:notekeeperapp/view/update_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -24,6 +25,7 @@ void main() async {
         "login": (context) => Sing_In(),
         "SingUp": (context) => Login_Up(),
         "note":(context) => NotesPages(),
+        "note1":(context) => NotesPages1(),
       },
     ),
   );
